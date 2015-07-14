@@ -7,3 +7,4 @@ class ApplicationHelperTest < ActionView::TestCase
 		assert_equal full_title("About"), "About | Ruby on Rails Tutorial Sample App"
 	end
 end
+

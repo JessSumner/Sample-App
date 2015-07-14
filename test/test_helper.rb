@@ -5,9 +5,14 @@ require "minitest/reporters"
 Minitest::Reporters.use!
 
 class ActiveSupport::TestCase
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  fixtures :all
-  include ApplicationHelper
+	fixtures :all
+	include ApplicationHelper
 
-  # Add more helper methods to be used by all tests here...
+	# Returns true uf a test user is logged in.
+	def is_logged_in?
+		session[:user_id].present?
+	end
 end
+  
+  # Add more helper methods to be used by all tests here...
+
