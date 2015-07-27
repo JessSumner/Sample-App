@@ -40,7 +40,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
 
   test "login with remembering" do
     log_in_as(@user, remember_me: '1')
-    assert_equal true, assigns(:user).remember_token.present?
+    assert_equal 22, assigns(:user).remember_token.length
   end
 
   test "login without remembering" do
