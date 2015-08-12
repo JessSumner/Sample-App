@@ -1,0 +1,12 @@
+lunch:
+  content: "I'm having minestrone soup for lunch."
+  created_at: <%= 30.minutes.ago %>
+
+my_stomach:
+  content: "I'm starving I wish my soup was ready now!"
+  created_at: <%= 10.seconds.ago %>
+
+most_recent:
+  content: "Mmmm this soup is delicious."
+  created_at: <%= Time.zone.now %>
+
