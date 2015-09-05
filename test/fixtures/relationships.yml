@@ -1,2 +1,16 @@
+one:
+  follower: testuser
+  followed: archer
 
+two:
+  follower: testuser
+  followed: mallory
+
+three:
+  follower: mallory
+  followed: testuser
+
+four:
+  follower: archer
+  followed: mallory
 
