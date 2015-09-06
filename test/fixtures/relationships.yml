@@ -1,6 +1,6 @@
 one:
-  follower: testuser
-  followed: archer
+  follower: archer
+  followed: testuser
 
 two:
   follower: testuser
